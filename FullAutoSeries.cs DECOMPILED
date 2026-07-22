@@ -39,6 +39,8 @@ public class FullAutoSeriesMod(
 
         await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
         await wttCommon.CustomLocaleService.CreateCustomLocales(assembly);
+        await wttCommon.CustomWeaponPresetService.CreateCustomWeaponPresets(assembly);
+        await wttCommon.CustomAssortSchemeService.CreateCustomAssortSchemes(assembly);
 
         logger.Success("[Full Auto Series] Mod Loaded, Full Auto Receivers have been added.");
 
