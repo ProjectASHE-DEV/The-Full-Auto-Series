@@ -14,7 +14,7 @@ public record ModMetadata : AbstractModMetadata
     public override string ModGuid { get; init; } = "com.mrlahey.fullautoseries";
     public override string Name { get; init; } = "The Full Auto Series";
     public override string Author { get; init; } = "MrLahey";
-    public override SemanticVersioning.Version Version { get; init; } = new("1.0.0");
+    public override SemanticVersioning.Version Version { get; init; } = new("2.0.0");
     public override Range SptVersion { get; init; } = new("4.0.13");
     public override Dictionary<string, Range>? ModDependencies { get; init; } = new()
     {
