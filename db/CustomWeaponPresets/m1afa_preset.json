@@ -1,0 +1,63 @@
+{
+  "66e000000000000000000035": {
+    "_changeWeaponName": false,
+    "_encyclopedia": "66e000000000000000000005",
+    "_id": "66e000000000000000000035",
+    "_items": [
+      {
+        "_id": "66e000000000000000000900",
+        "_tpl": "66e000000000000000000005",
+        "upd": {
+          "FireMode": {
+            "FireMode": "fullauto"
+          }
+        }
+      },
+      {
+        "_id": "66e000000000000000000901",
+        "_tpl": "64b9e2037fdfb81df81e3c25",
+        "parentId": "66e000000000000000000900",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "66e000000000000000000902",
+        "_tpl": "5aaf8e43e5b5b00015693246",
+        "parentId": "66e000000000000000000900",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "66e000000000000000000903",
+        "_tpl": "5ab24ef9e5b5b00fe93c9209",
+        "parentId": "66e000000000000000000902",
+        "slotId": "mod_mount"
+      },
+      {
+        "_id": "66e000000000000000000904",
+        "_tpl": "5aaf9d53e5b5b00015042a52",
+        "parentId": "66e000000000000000000900",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "66e000000000000000000905",
+        "_tpl": "5aafa1c2e5b5b00015042a56",
+        "parentId": "66e000000000000000000904",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "66e000000000000000000906",
+        "_tpl": "5aafa49ae5b5b00015042a58",
+        "parentId": "66e000000000000000000905",
+        "slotId": "mod_sight_front"
+      },
+      {
+        "_id": "66e000000000000000000907",
+        "_tpl": "5abcbb20d8ce87001773e258",
+        "parentId": "66e000000000000000000900",
+        "slotId": "mod_sight_rear"
+      }
+    ],
+    "_name": "Springfield Armory M1A Full Auto",
+    "_parent": "66e000000000000000000900",
+    "_type": "Preset"
+  }
+}

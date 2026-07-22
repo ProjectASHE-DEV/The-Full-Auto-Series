@@ -1,0 +1,93 @@
+{
+  "66e000000000000000000033": {
+    "_changeWeaponName": false,
+    "_encyclopedia": "66e000000000000000000003",
+    "_id": "66e000000000000000000033",
+    "_items": [
+      {
+        "_id": "66e000000000000000000500",
+        "_tpl": "66e000000000000000000003",
+        "upd": {
+          "FireMode": {
+            "FireMode": "fullauto"
+          }
+        }
+      },
+      {
+        "_id": "66e000000000000000000501",
+        "_tpl": "55d4b9964bdc2d1d4e8b456e",
+        "parentId": "66e000000000000000000500",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "66e000000000000000000502",
+        "_tpl": "5df8f541c41b2312ea3335e3",
+        "parentId": "66e000000000000000000500",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "66e000000000000000000503",
+        "_tpl": "5649be884bdc2d79388b4577",
+        "parentId": "66e000000000000000000500",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "66e000000000000000000504",
+        "_tpl": "5ae30c9a5acfc408fb139a03",
+        "parentId": "66e000000000000000000503",
+        "slotId": "mod_stock_000"
+      },
+      {
+        "_id": "66e000000000000000000505",
+        "_tpl": "5df8e4080b92095fd441e594",
+        "parentId": "66e000000000000000000500",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "66e000000000000000000506",
+        "_tpl": "5df917564a9f347bc92edca3",
+        "parentId": "66e000000000000000000505",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "66e000000000000000000507",
+        "_tpl": "5dfa3cd1b33c0951220c079b",
+        "parentId": "66e000000000000000000506",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "66e000000000000000000508",
+        "_tpl": "5dfa3d45dfc58d14537c20b0",
+        "parentId": "66e000000000000000000506",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "66e000000000000000000509",
+        "_tpl": "5df916dfbb49d91fb446d6b9",
+        "parentId": "66e000000000000000000505",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "66e00000000000000000050a",
+        "_tpl": "5dfa3d950dee1b22f862eae0",
+        "parentId": "66e000000000000000000509",
+        "slotId": "mod_sight_front"
+      },
+      {
+        "_id": "66e00000000000000000050b",
+        "_tpl": "5dfa3d7ac41b2312ea33362a",
+        "parentId": "66e000000000000000000505",
+        "slotId": "mod_sight_rear"
+      },
+      {
+        "_id": "66e00000000000000000050c",
+        "_tpl": "5df8e053bb49d91fb446d6a6",
+        "parentId": "66e000000000000000000500",
+        "slotId": "mod_charge"
+      }
+    ],
+    "_name": "Knight's Armament Company SR-25 Full Auto",
+    "_parent": "66e000000000000000000500",
+    "_type": "Preset"
+  }
+}

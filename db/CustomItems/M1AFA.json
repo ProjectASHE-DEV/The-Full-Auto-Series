@@ -1,0 +1,126 @@
+{
+  "66e000000000000000000005": {
+    "itemTplToClone": "5aafa857e5b5b00018480968",
+    "parentId": "5447b6194bdc2d67278b4567",
+    "handbookParentId": "5b5f791486f774093f2ed3be",
+    "fleaPriceRoubles": 120000,
+    "handbookPriceRoubles": 50000,
+    "overrideProperties": {
+      "WeapFireType": [
+        "single",
+        "fullauto"
+      ],
+      "bFirerate": 650,
+      "Slots": [
+        {
+          "_id": "66e000000000000000000040",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "66e000000000000000000005",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "5aaf8a0be5b5b00015693243",
+                  "5addcce35acfc4001a5fc635",
+                  "5addccf45acfc400185c2989",
+                  "64b9e2037fdfb81df81e3c25"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "66e000000000000000000041",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "66e000000000000000000005",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5addc7005acfc4001669f275",
+                  "5ab372a310e891001717f0d8",
+                  "5addbf175acfc408fb13965b",
+                  "5aaf8e43e5b5b00015693246"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "66e000000000000000000042",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_barrel",
+          "_parent": "66e000000000000000000005",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5aaf9d53e5b5b00015042a52",
+                  "5addbac75acfc400194dbc56"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "66e000000000000000000043",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "66e000000000000000000005",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5abcbb20d8ce87001773e258"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "66e000000000000000000044",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "66e000000000000000000005",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5addbfe15acfc4001a5fc58b",
+                  "5addbfef5acfc400185c2857"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Springfield Armory M1AFA 7.62x51 rifle",
+        "shortName": "M1AFA",
+        "description": "A custom fully automatic variant of the Springfield Armory M1A rifle."
+      }
+    },
+    "addtoBots": true,
+    "addtoModSlots": true,
+    "addtoStaticLootContainers": true
+  }
+}
